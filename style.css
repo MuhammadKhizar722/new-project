@@ -1,0 +1,133 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(251, 246, 246);
+    margin: 0px;
+    padding: 0px;
+    background: url('abs-1850926_1920.jpg');
+    height: 1200px;
+
+}
+
+.left {
+    position: absolute;
+    top: 20px;
+    left: 60px;
+    display: inline-block;
+    font-size: 20px;
+    /* border: 2px solid green; */
+
+}
+
+.left img {
+    width: 123px;
+
+
+}
+
+.left div {
+    line-height: 19px;
+    font-size: 26px;
+    text-align: center;
+}
+
+.mid {
+    display: block;
+    width: 40%;
+    margin: 17px auto;
+    /* margin-left: 920px; */
+    /* border: 2px solid white; */
+
+}
+
+
+.right {
+    position: absolute;
+    top: 18px;
+    right: 34px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+
+
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+
+.navbar li a:hover,
+navbar li a.active {
+    /* text-decoration: underline; */
+    color: grey;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    margin: 0px 9px;
+    padding: 4px 14px;
+    border-radius: 10px;
+    border: 2px solid grey;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(70, 69, 69);
+    /* text-decoration: underline; */
+
+}
+
+.container {
+    /* border: 2px solid white;  */
+    margin: 120px 55px;
+    padding: 75px 75px;
+    width: 27%;
+    border-radius: 14px;
+    position: absolute;
+    right: 1px;
+    display: inline-block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.form-group input {
+    text-align: center;
+    display: block;
+    width: 410px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 6px auto;
+    font-size: 25px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.container h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 30px; 
+}
+
+.container button {
+    display: block;
+    width: 174px;
+    padding: 8px 4px;
+    margin: 20px auto;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
